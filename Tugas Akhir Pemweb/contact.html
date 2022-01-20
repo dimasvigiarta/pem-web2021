@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <div id="over"></div>
+        <form onsubmit="event.preventDefault">
+            <h1>Contact Us</h1>
+            <label for="name" >Name :</label>
+            <input type="text" id="name" placeholder="your name">
+            <small class="error"></small>
+
+            <label for="email" >Email :</label>
+            <input type="email" id="email" placeholder="your email">
+            <small class="error"></small>
+
+            <label for="massaage" >Massage :</label>
+            <textarea  id="massage" placeholder="massage" rows="6" ></textarea>
+            <small class="error"></small>
+
+            <div class="center">
+                <input type="submit" value="send massage">
+                <p class="succes"></p>
+            </div>
+
+        </form>
+
+        <script src="contact.js"></script>
+    </body>
+</html>

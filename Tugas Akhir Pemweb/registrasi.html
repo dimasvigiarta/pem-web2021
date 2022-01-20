@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Validated Login Form</title>
+        <link rel="stylesheet" href="register.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="label">Sign Up</h1>
+            <form class="login_form" action="obat.html" method="post" name="form" onsubmit="return validated()" >
+                <div class="font">Username</div>
+                <input type="text" name="username"></input>
+                <div id="email_error">Please fill up your Username</div>
+                <div class="font">Email or Phone</div>
+                <input type="email" name="email"></input>
+                <div id="email_error">Please fill up your Email or Phone</div>
+                <div class="font font2">Password</div>
+                <input type="Password" name="password"></input>
+                <div id="pass_error">Please fill up your Password</div>
+                <button type="submit">Login</button>
+
+            </form>
+        </div>
+        <script src="register.js"></script>
+    </body>
+</html>
